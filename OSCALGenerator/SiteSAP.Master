@@ -1,0 +1,380 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="SiteSAP.master.cs" Inherits="OSCALGenerator.SiteSAP" %>
+
+<!DOCTYPE html>
+
+
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%: Page.Title %> - OSCAL Generator</title>
+
+    <asp:PlaceHolder runat="server">
+        <%: Scripts.Render("~/bundles/modernizr") %>
+    </asp:PlaceHolder>
+
+    <webopt:bundlereference runat="server" path="~/Content/css" />
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.6/css/bootstrap.min.css" />
+
+    
+
+</head>
+<body>  
+
+       <script>
+           function myFunction2() {
+               var x = document.getElementById("myDIV");
+               if (x.style.display === "none") {
+                   x.style.display = "block";
+               } else {
+                   x.style.display = "none";
+               }
+           }
+
+           function LoadLanding() {
+               var x = document.getElementById("Page");
+               if (x.style.display === "none") {
+                   x.style.display = "block";
+               }
+               else {
+                   x.style.display = "none";
+               }
+           }
+
+           function myFunction(text, percent) {
+               document.getElementById("realmessage").innerText = text;
+               document.getElementById("mainbar").style.width = percent;
+               
+           }
+
+           function SAP() {
+               document.getElementById("sidebar").style.display = "none";
+               document.getElementById("sidebarSAP").style.visibility = "true";
+
+           }
+          </script>
+
+
+      
+  <form id="Form" runat="server" onclick="FormOnClick">
+        <asp:ScriptManager  runat="server" EnablePageMethods="True" EnablePartialRendering="true">
+            <Scripts>
+                <%--To learn more about bundling scripts in ScriptManager see https://go.microsoft.com/fwlink/?LinkID=301884 --%>
+                <%--Framework Scripts--%>
+                <asp:ScriptReference Name="MsAjaxBundle" />
+                <asp:ScriptReference Name="jquery" />
+                <asp:ScriptReference Name="bootstrap" />
+                <asp:ScriptReference Name="WebForms.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebForms.js" />
+                <asp:ScriptReference Name="WebUIValidation.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebUIValidation.js" />
+                <asp:ScriptReference Name="MenuStandards.js" Assembly="System.Web" Path="~/Scripts/WebForms/MenuStandards.js" />
+                <asp:ScriptReference Name="GridView.js" Assembly="System.Web" Path="~/Scripts/WebForms/GridView.js" />
+                <asp:ScriptReference Name="DetailsView.js" Assembly="System.Web" Path="~/Scripts/WebForms/DetailsView.js" />
+                <asp:ScriptReference Name="TreeView.js" Assembly="System.Web" Path="~/Scripts/WebForms/TreeView.js" />
+                <asp:ScriptReference Name="WebParts.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebParts.js" />
+                <asp:ScriptReference Name="Focus.js" Assembly="System.Web" Path="~/Scripts/WebForms/Focus.js" />
+                <asp:ScriptReference Name="WebFormsBundle" />
+
+                <%--Site Scripts--%>
+                 
+            </Scripts>
+        </asp:ScriptManager>
+
+     
+
+   
+
+    <div id="Page">
+       <div class="container-fluid">
+        <div class ="container">
+    
+
+    <div class="row">
+          <div class="col-md-10" >
+              
+                  
+                 <table style="width:100%"> 
+                     <tr>
+                       <td>
+                             <a class="navbar-brand" runat="server" href="~/"><h1> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;OSCAL Generator</h1></a>
+                      </td>
+                  </tr>
+
+                   <tr>
+                       <td>
+                         <h2> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SAP Generator </h2>
+                       </td>
+                  </tr>
+               </table>
+             
+            </div>
+            <div class="col-md-2" >
+                <asp:Label ID="Label1" runat="server" Text=""></asp:Label> 
+                
+                <div class="loginDisplay" style="color: #3399FF" >
+               
+                <asp:LoginView ID="HeadLoginView" runat="server" EnableViewState="false">
+                    <AnonymousTemplate>
+                        
+                        <a href="~/Default.aspx" ID="HeadLoginStatus" runat="server" 
+                            style="color: #0067ac"></a> 
+                        
+                    </AnonymousTemplate>
+                    <LoggedInTemplate>
+                        Welcome <span class="bold"><asp:LoginName ID="HeadLoginName" runat="server" /></span>!
+                        [ <asp:LoginStatus ID="HeadLoginStatus" runat="server" LogoutAction="Redirect" 
+                            LogoutText="Log Out" LogoutPageUrl="~/" ForeColor="#0067ac" /> ]
+                    </LoggedInTemplate>
+                </asp:LoginView>
+             </div>
+         </div>
+                 
+      </div>
+  </div>
+        
+           
+
+<div class="row">
+      <div class="col-md-2">
+        <div class="navbar-header">
+                   <%-- <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>--%>
+                    <a class="navbar-brand" runat="server" href="~/"></a>
+          </div>
+        
+       </div>
+       <div class="col-md-10" >
+
+                
+
+
+        <div class="navbar">
+
+             
+                  <div class="navbar-inner">
+
+             
+
+
+              <div class="navbar-inner">
+                <div class="container">
+                  <ul class="nav nav-tabs">
+                    <li class=" dropdown-menu-right">
+                        <a runat="server" data-toggle="dropdown" class="dropdown-submenu" href="~/Default.aspx">Home <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                           <li><a runat="server" href="~/Default.aspx">SSP</a></li>
+                            <li onclick="SAP()"><a runat="server" href="~/PagesSAP/SAPHome.aspx">SAP</a></li>
+                            <li><a runat="server" href="~/PagesSAR/HomeSAR.aspx">SAR</a></li>
+                           
+                        </ul>
+
+                    </li>
+                    
+                     <%--<li class="dropdown">
+                     <a  runat="server" data-target="#" data-toggle="dropdown" class="dropdown-submenu" href="~/Admin"> Admin <b class="caret"></b></a>
+                     <ul class="dropdown-menu">
+                           <li><a runat="server"  href="~/Pages/Home">Maintain Organization</a></li>
+                           <li><a runat="server"  href="~/Pages/Home">Maintain System</a></li>
+                        </ul>
+                    </li>--%>
+                                    
+                  </ul>
+                </div>
+              </div>
+            </div> 
+            </div>
+      </div>
+    </div>
+
+   <div class="row">
+        <div class="col-md-2">
+         <!-- Sidebar -->
+    
+
+      
+            
+      <nav runat="server" id="sidebarSAP"  style="background-color : whitesmoke; max-width:280px">
+
+        <div class="sidebar-header">
+           
+        </div>
+
+        <ul class="nav">
+            
+            <li class="active">
+                <a href="#MetadataSAPSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Metadata <%--<b class="caret"></b>--%></a>
+                <ul class="collapsing" id="MetadataSAPSubmenu">
+                    
+                    <li>
+                        <a runat="server"  href="~/PagesSAP/Metadata/Title.aspx">Title</a>
+                    </li>
+                     <li>
+                        <a runat="server" href="~/PagesSAP/Metadata/RevisionHistorySAP.aspx"> Revision  History </a>
+                    </li>
+                      <li>
+                        <a runat="server" href="~/PagesSAP/Metadata/DocID.aspx"> Doc Identifications </a>
+                    </li>
+                    <li>
+                        <a runat="server" href="~/PagesSAP/Metadata/Roles.aspx"> Roles </a>
+                    </li>
+                    <li>
+                        <a runat="server" href="~/PagesSAP/Metadata/LocationsSAP.aspx"> Locations </a>
+                    </li>
+                    <li>
+                        <a runat="server" href="~/PagesSAP/Metadata/Parties.aspx"> Parties </a>
+                    </li>
+
+                    <li>
+                        <a runat="server" href="~/PagesSAP/Metadata/ResponsibleParties.aspx"> Reponsible Parties </a>
+                    </li>
+
+                </ul>
+            </li>
+            
+            
+
+            <li class="active">
+                <a  href="#Import" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"> Import - SSP <%--<b class="caret"></b>--%></a>
+                 <ul class="collapsing" id="Import">
+                    <li>
+                        <a runat="server" href="~/PagesSAP/Import-SSP/ImportSSP.aspx"> Import - SSP </a>
+                    </li>
+                   
+                </ul>
+            </li>
+
+
+            <li>
+                <a href="#Objectives" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"> Objectives</a>
+                <ul class="collapsing" id="Objectives">
+                    <li>
+                        <a runat="server" href="~/PagesSAP/Objectives/Description.aspx">Description</a>
+                    </li>
+
+                    <li>
+                        <a runat="server" href="~/PagesSAP/Objectives/Controls.aspx">Controls</a>
+                    </li>
+
+                     <li>
+                        <a runat="server" href="~/PagesSAP/Objectives/ControlObjectives.aspx">Control Objectives</a>
+                    </li>
+                     <li>
+                        <a runat="server" href="~/PagesSAP/Objectives/Methods.aspx">Methods</a>
+                    </li>
+
+                     <li>
+                        <a runat="server" href="~/PagesSAP/Objectives/Objectives.aspx">Objectives</a>
+                    </li>
+                    
+                </ul>
+            </li>
+          
+
+            <li>
+                <a href="#AssessmentSubject" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Assessment Subject</a>
+                <ul class="collapsing" id="AssessmentSubject">
+                    <li>
+                        <a  runat="server" href="~/PagesSAP/AssessmentSubject/IncludeSubjects.aspx"> Include Subjects</a>
+                    </li>
+
+                    <li>
+                        <a  runat="server" href="~/PagesSAP/AssessmentSubject/ExcludeSubject.aspx"> Exclude Subjects</a>
+                    </li>
+
+                     <li>
+                        <a  runat="server" href="~/PagesSAP/AssessmentSubject/LocalDefinitions/Remarks.aspx"> Remarks</a>
+                    </li>
+
+                    <li>
+                        <a  runat="server" href="~/PagesSAP/AssessmentSubject/LocalDefinitions/Components.aspx"> Components</a>
+                    </li>
+
+                     <li>
+                        <a  runat="server" href="~/PagesSAP/AssessmentSubject/LocalDefinitions/ImplementedComponents.aspx"> ImplementedComponents</a>
+                    </li>
+
+                     <li>
+                        <a  runat="server" href="~/PagesSAP/AssessmentSubject/LocalDefinitions/InventoryItems.aspx"> Inventory Items</a>
+                    </li>
+
+                     <li>
+                        <a  runat="server" href="~/PagesSAP/AssessmentSubject/LocalDefinitions/SAPUsers.aspx"> Users</a>
+                    </li>
+                   
+                </ul>
+            </li>
+            <li>
+                <a href="#Assets" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Assets</a>
+                <ul class="collapsing" id="Assets">
+                    <li>
+                        <a runat="server" href="~/PagesSAP/Assets/Tools.aspx">Tools</a>
+                    </li>
+                    <li>
+                        <a runat="server" href="~/PagesSAP/Assets/Origination.aspx">Origination</a>
+                    </li>
+                   
+                </ul>
+            </li>
+           
+            <li>
+                <a href="#AssessmentActivities" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Assessment Activities</a>
+                <ul class="collapsing" id="AssessmentActivities">
+                    <li>
+                        <a  runat="server" href="~/PagesSAP/AssessmentActivities/TestMethods.aspx">Test Methods</a>
+                    </li>
+                    <li>
+                        <a  runat="server" href="~/PagesSAP/AssessmentActivities/Schedules.aspx">Schedule</a>
+                    </li>
+                   
+                </ul>
+            </li>
+
+            <li>
+                <a href="#BackMatterSAP" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Back Matter</a>
+                <ul class="collapsing" id="BackMatterSAP">
+                   
+                   
+                </ul>
+            </li>
+            
+        </ul>
+    </nav>
+    
+
+  </div>
+
+ <div class="col-md-10">
+
+        <div class=" container-fluid body-content">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server" OnLoad="Page_Load">
+            </asp:ContentPlaceHolder>
+            
+       </div>
+
+     </div>
+
+    </div>
+    <div class="row">
+      <div class="col-md-2" >
+       </div>
+        <div class="col-md-10">
+          <hr />
+            <footer>
+                <p>&copy; <%: DateTime.Now.Year %> - VITG, Inc.</p>
+            </footer>
+      </div>
+
+        </div>
+
+            </div>
+   </div>
+
+
+
+  </form>
+</body>
+</html>
+

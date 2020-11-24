@@ -1,0 +1,176 @@
+C:\Users\volpe\OneDrive\Documents\Visual Studio 2017\Projects\OConvert\OConvert\obj\Debug\OConvert.csprojResolveAssemblyReference.cache
+C:\Users\volpe\OneDrive\Documents\Visual Studio 2017\Projects\OConvert\OConvert\obj\Debug\OConvert.csproj.CoreCompileInputs.cache
+C:\Users\volpe\OneDrive\Documents\Visual Studio 2017\Projects\OConvert\OConvert\bin\Debug\OConvert.exe.config
+C:\Users\volpe\OneDrive\Documents\Visual Studio 2017\Projects\OConvert\OConvert\bin\Debug\OConvert.exe
+C:\Users\volpe\OneDrive\Documents\Visual Studio 2017\Projects\OConvert\OConvert\bin\Debug\OConvert.pdb
+C:\Users\volpe\OneDrive\Documents\Visual Studio 2017\Projects\OConvert\OConvert\obj\Debug\OConvert.exe
+C:\Users\volpe\OneDrive\Documents\Visual Studio 2017\Projects\OConvert\OConvert\obj\Debug\OConvert.pdb
+C:\Users\volpe\Documents\Visual Studio 2017\Projects\OConvert\OConvert\bin\Debug\OConvert.exe.config
+C:\Users\volpe\Documents\Visual Studio 2017\Projects\OConvert\OConvert\bin\Debug\OConvert.exe
+C:\Users\volpe\Documents\Visual Studio 2017\Projects\OConvert\OConvert\bin\Debug\OConvert.pdb
+C:\Users\volpe\Documents\Visual Studio 2017\Projects\OConvert\OConvert\obj\Debug\OConvert.csprojResolveAssemblyReference.cache
+C:\Users\volpe\Documents\Visual Studio 2017\Projects\OConvert\OConvert\obj\Debug\OConvert.csproj.CoreCompileInputs.cache
+C:\Users\volpe\Documents\Visual Studio 2017\Projects\OConvert\OConvert\obj\Debug\OConvert.exe
+C:\Users\volpe\Documents\Visual Studio 2017\Projects\OConvert\OConvert\obj\Debug\OConvert.pdb
+C:\Users\volpe\Documents\Visual Studio 2017\Projects\OConvert\OConvert\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\volpe\Documents\Visual Studio 2017\Projects\OConvert\OConvert\bin\Debug\System.IO.FileSystem.Primitives.dll
+C:\Users\volpe\Documents\Visual Studio 2017\Projects\OConvert\OConvert\bin\Debug\System.IO.Packaging.dll
+C:\Users\volpe\Documents\Visual Studio 2017\Projects\OConvert\OConvert\bin\Debug\DocumentFormat.OpenXml.xml
+C:\Users\MoustaphaPemy\Documents\OConvert\OConvert\OConvert\bin\Debug\OConvert.exe.config
+C:\Users\MoustaphaPemy\Documents\OConvert\OConvert\OConvert\bin\Debug\OConvert.exe
+C:\Users\MoustaphaPemy\Documents\OConvert\OConvert\OConvert\bin\Debug\OConvert.pdb
+C:\Users\MoustaphaPemy\Documents\OConvert\OConvert\OConvert\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\MoustaphaPemy\Documents\OConvert\OConvert\OConvert\bin\Debug\System.IO.FileSystem.Primitives.dll
+C:\Users\MoustaphaPemy\Documents\OConvert\OConvert\OConvert\bin\Debug\System.IO.Packaging.dll
+C:\Users\MoustaphaPemy\Documents\OConvert\OConvert\OConvert\bin\Debug\DocumentFormat.OpenXml.xml
+C:\Users\MoustaphaPemy\Documents\OConvert\OConvert\OConvert\obj\Debug\OConvert.csprojAssemblyReference.cache
+C:\Users\MoustaphaPemy\Documents\OConvert\OConvert\OConvert\obj\Debug\OConvert.csproj.CopyComplete
+C:\Users\MoustaphaPemy\Documents\OConvert\OConvert\OConvert\obj\Debug\OConvert.exe
+C:\Users\MoustaphaPemy\Documents\OConvert\OConvert\OConvert\obj\Debug\OConvert.pdb
+C:\Users\MoustaphaPemy\source\repos\OConvert\OConvert\OConvert\bin\Debug\OConvert.exe.config
+C:\Users\MoustaphaPemy\source\repos\OConvert\OConvert\OConvert\bin\Debug\OConvert.exe
+C:\Users\MoustaphaPemy\source\repos\OConvert\OConvert\OConvert\bin\Debug\OConvert.pdb
+C:\Users\MoustaphaPemy\source\repos\OConvert\OConvert\OConvert\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\MoustaphaPemy\source\repos\OConvert\OConvert\OConvert\bin\Debug\System.IO.FileSystem.Primitives.dll
+C:\Users\MoustaphaPemy\source\repos\OConvert\OConvert\OConvert\bin\Debug\System.IO.Packaging.dll
+C:\Users\MoustaphaPemy\source\repos\OConvert\OConvert\OConvert\bin\Debug\DocumentFormat.OpenXml.xml
+C:\Users\MoustaphaPemy\source\repos\OConvert\OConvert\OConvert\obj\Debug\OConvert.csproj.CopyComplete
+C:\Users\MoustaphaPemy\source\repos\OConvert\OConvert\OConvert\obj\Debug\OConvert.exe
+C:\Users\MoustaphaPemy\source\repos\OConvert\OConvert\OConvert\obj\Debug\OConvert.pdb
+C:\Users\MoustaphaPemy\source\repos\OConvert\OConvert\OConvert\obj\Debug\OConvert.csprojAssemblyReference.cache
+C:\Users\MoustaphaPemy\Documents\OSCALWEBAPP\OConvert\OConvert\OConvert\bin\Debug\OConvert.exe.config
+C:\Users\MoustaphaPemy\Documents\OSCALWEBAPP\OConvert\OConvert\OConvert\bin\Debug\OConvert.exe
+C:\Users\MoustaphaPemy\Documents\OSCALWEBAPP\OConvert\OConvert\OConvert\bin\Debug\OConvert.pdb
+C:\Users\MoustaphaPemy\Documents\OSCALWEBAPP\OConvert\OConvert\OConvert\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\MoustaphaPemy\Documents\OSCALWEBAPP\OConvert\OConvert\OConvert\bin\Debug\System.IO.FileSystem.Primitives.dll
+C:\Users\MoustaphaPemy\Documents\OSCALWEBAPP\OConvert\OConvert\OConvert\bin\Debug\System.IO.Packaging.dll
+C:\Users\MoustaphaPemy\Documents\OSCALWEBAPP\OConvert\OConvert\OConvert\bin\Debug\DocumentFormat.OpenXml.xml
+C:\Users\MoustaphaPemy\Documents\OSCALWEBAPP\OConvert\OConvert\OConvert\obj\Debug\OConvert.csproj.CopyComplete
+C:\Users\MoustaphaPemy\Documents\OSCALWEBAPP\OConvert\OConvert\OConvert\obj\Debug\OConvert.exe
+C:\Users\MoustaphaPemy\Documents\OSCALWEBAPP\OConvert\OConvert\OConvert\obj\Debug\OConvert.pdb
+C:\Users\MoustaphaPemy\source\repos\DEV\OSCALWEBAPP\OConvert\OConvert\OConvert\bin\Debug\OConvert.exe.config
+C:\Users\MoustaphaPemy\source\repos\DEV\OSCALWEBAPP\OConvert\OConvert\OConvert\bin\Debug\OConvert.exe
+C:\Users\MoustaphaPemy\source\repos\DEV\OSCALWEBAPP\OConvert\OConvert\OConvert\bin\Debug\OConvert.pdb
+C:\Users\MoustaphaPemy\source\repos\DEV\OSCALWEBAPP\OConvert\OConvert\OConvert\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\MoustaphaPemy\source\repos\DEV\OSCALWEBAPP\OConvert\OConvert\OConvert\bin\Debug\System.IO.FileSystem.Primitives.dll
+C:\Users\MoustaphaPemy\source\repos\DEV\OSCALWEBAPP\OConvert\OConvert\OConvert\bin\Debug\System.IO.Packaging.dll
+C:\Users\MoustaphaPemy\source\repos\DEV\OSCALWEBAPP\OConvert\OConvert\OConvert\bin\Debug\DocumentFormat.OpenXml.xml
+C:\Users\MoustaphaPemy\source\repos\DEV\OSCALWEBAPP\OConvert\OConvert\OConvert\obj\Debug\OConvert.csprojAssemblyReference.cache
+C:\Users\MoustaphaPemy\source\repos\DEV\OSCALWEBAPP\OConvert\OConvert\OConvert\obj\Debug\OConvert.csproj.CopyComplete
+C:\Users\MoustaphaPemy\source\repos\DEV\OSCALWEBAPP\OConvert\OConvert\OConvert\obj\Debug\OConvert.exe
+C:\Users\MoustaphaPemy\source\repos\DEV\OSCALWEBAPP\OConvert\OConvert\OConvert\obj\Debug\OConvert.pdb
+C:\Users\MoustaphaPemy\source\repos\OSCALConverter\OConvert\OConvert\OConvert\bin\Debug\OConvert.exe.config
+C:\Users\MoustaphaPemy\source\repos\OSCALConverter\OConvert\OConvert\OConvert\bin\Debug\OConvert.exe
+C:\Users\MoustaphaPemy\source\repos\OSCALConverter\OConvert\OConvert\OConvert\bin\Debug\OConvert.pdb
+C:\Users\MoustaphaPemy\source\repos\OSCALConverter\OConvert\OConvert\OConvert\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\MoustaphaPemy\source\repos\OSCALConverter\OConvert\OConvert\OConvert\bin\Debug\System.IO.FileSystem.Primitives.dll
+C:\Users\MoustaphaPemy\source\repos\OSCALConverter\OConvert\OConvert\OConvert\bin\Debug\System.IO.Packaging.dll
+C:\Users\MoustaphaPemy\source\repos\OSCALConverter\OConvert\OConvert\OConvert\bin\Debug\DocumentFormat.OpenXml.xml
+C:\Users\MoustaphaPemy\source\repos\OSCALConverter\OConvert\OConvert\OConvert\obj\Debug\OConvert.csprojAssemblyReference.cache
+C:\Users\MoustaphaPemy\source\repos\OSCALConverter\OConvert\OConvert\OConvert\obj\Debug\OConvert.csproj.CopyComplete
+C:\Users\MoustaphaPemy\source\repos\OSCALConverter\OConvert\OConvert\OConvert\obj\Debug\OConvert.exe
+C:\Users\MoustaphaPemy\source\repos\OSCALConverter\OConvert\OConvert\OConvert\obj\Debug\OConvert.pdb
+C:\Users\MoustaphaPemy\source\repos\OSCALConverter\OConvert\bin\Debug\OConvert.exe.config
+C:\Users\MoustaphaPemy\source\repos\OSCALConverter\OConvert\bin\Debug\OConvert.exe
+C:\Users\MoustaphaPemy\source\repos\OSCALConverter\OConvert\bin\Debug\OConvert.pdb
+C:\Users\MoustaphaPemy\source\repos\OSCALConverter\OConvert\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\MoustaphaPemy\source\repos\OSCALConverter\OConvert\bin\Debug\System.IO.FileSystem.Primitives.dll
+C:\Users\MoustaphaPemy\source\repos\OSCALConverter\OConvert\bin\Debug\System.IO.Packaging.dll
+C:\Users\MoustaphaPemy\source\repos\OSCALConverter\OConvert\bin\Debug\DocumentFormat.OpenXml.xml
+C:\Users\MoustaphaPemy\source\repos\OSCALConverter\OConvert\obj\Debug\OConvert.csprojAssemblyReference.cache
+C:\Users\MoustaphaPemy\source\repos\OSCALConverter\OConvert\obj\Debug\OConvert.csproj.CopyComplete
+C:\Users\MoustaphaPemy\source\repos\OSCALConverter\OConvert\obj\Debug\OConvert.exe
+C:\Users\MoustaphaPemy\source\repos\OSCALConverter\OConvert\obj\Debug\OConvert.pdb
+C:\Users\MoustaphaPemy\source\repos\OSCALGenerator\OConvert\bin\Debug\OConvert.exe.config
+C:\Users\MoustaphaPemy\source\repos\OSCALGenerator\OConvert\bin\Debug\OConvert.exe
+C:\Users\MoustaphaPemy\source\repos\OSCALGenerator\OConvert\bin\Debug\OConvert.pdb
+C:\Users\MoustaphaPemy\source\repos\OSCALGenerator\OConvert\bin\Debug\Antlr3.Runtime.dll
+C:\Users\MoustaphaPemy\source\repos\OSCALGenerator\OConvert\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\MoustaphaPemy\source\repos\OSCALGenerator\OConvert\bin\Debug\log4net.dll
+C:\Users\MoustaphaPemy\source\repos\OSCALGenerator\OConvert\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\MoustaphaPemy\source\repos\OSCALGenerator\OConvert\bin\Debug\Newtonsoft.Json.dll
+C:\Users\MoustaphaPemy\source\repos\OSCALGenerator\OConvert\bin\Debug\System.IO.FileSystem.Primitives.dll
+C:\Users\MoustaphaPemy\source\repos\OSCALGenerator\OConvert\bin\Debug\System.IO.Packaging.dll
+C:\Users\MoustaphaPemy\source\repos\OSCALGenerator\OConvert\bin\Debug\System.Web.Helpers.dll
+C:\Users\MoustaphaPemy\source\repos\OSCALGenerator\OConvert\bin\Debug\System.Web.Optimization.dll
+C:\Users\MoustaphaPemy\source\repos\OSCALGenerator\OConvert\bin\Debug\System.Web.Razor.dll
+C:\Users\MoustaphaPemy\source\repos\OSCALGenerator\OConvert\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\MoustaphaPemy\source\repos\OSCALGenerator\OConvert\bin\Debug\System.Web.WebPages.dll
+C:\Users\MoustaphaPemy\source\repos\OSCALGenerator\OConvert\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\MoustaphaPemy\source\repos\OSCALGenerator\OConvert\bin\Debug\WebGrease.dll
+C:\Users\MoustaphaPemy\source\repos\OSCALGenerator\OConvert\bin\Debug\Antlr3.Runtime.pdb
+C:\Users\MoustaphaPemy\source\repos\OSCALGenerator\OConvert\bin\Debug\DocumentFormat.OpenXml.xml
+C:\Users\MoustaphaPemy\source\repos\OSCALGenerator\OConvert\bin\Debug\log4net.xml
+C:\Users\MoustaphaPemy\source\repos\OSCALGenerator\OConvert\bin\Debug\Newtonsoft.Json.xml
+C:\Users\MoustaphaPemy\source\repos\OSCALGenerator\OConvert\bin\Debug\System.Web.Helpers.xml
+C:\Users\MoustaphaPemy\source\repos\OSCALGenerator\OConvert\bin\Debug\System.Web.Optimization.xml
+C:\Users\MoustaphaPemy\source\repos\OSCALGenerator\OConvert\bin\Debug\System.Web.Razor.xml
+C:\Users\MoustaphaPemy\source\repos\OSCALGenerator\OConvert\bin\Debug\System.Web.WebPages.xml
+C:\Users\MoustaphaPemy\source\repos\OSCALGenerator\OConvert\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\MoustaphaPemy\source\repos\OSCALGenerator\OConvert\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\MoustaphaPemy\source\repos\OSCALGenerator\OConvert\obj\Debug\OConvert.csproj.CopyComplete
+C:\Users\MoustaphaPemy\source\repos\OSCALGenerator\OConvert\obj\Debug\OConvert.exe
+C:\Users\MoustaphaPemy\source\repos\OSCALGenerator\OConvert\obj\Debug\OConvert.pdb
+C:\Users\MoustaphaPemy\source\repos\OSCAL\OSCALGenerator\OConvert\bin\Debug\OConvert.exe.config
+C:\Users\MoustaphaPemy\source\repos\OSCAL\OSCALGenerator\OConvert\bin\Debug\OConvert.exe
+C:\Users\MoustaphaPemy\source\repos\OSCAL\OSCALGenerator\OConvert\bin\Debug\OConvert.pdb
+C:\Users\MoustaphaPemy\source\repos\OSCAL\OSCALGenerator\OConvert\bin\Debug\Antlr3.Runtime.dll
+C:\Users\MoustaphaPemy\source\repos\OSCAL\OSCALGenerator\OConvert\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\MoustaphaPemy\source\repos\OSCAL\OSCALGenerator\OConvert\bin\Debug\log4net.dll
+C:\Users\MoustaphaPemy\source\repos\OSCAL\OSCALGenerator\OConvert\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\MoustaphaPemy\source\repos\OSCAL\OSCALGenerator\OConvert\bin\Debug\Newtonsoft.Json.dll
+C:\Users\MoustaphaPemy\source\repos\OSCAL\OSCALGenerator\OConvert\bin\Debug\System.IO.FileSystem.Primitives.dll
+C:\Users\MoustaphaPemy\source\repos\OSCAL\OSCALGenerator\OConvert\bin\Debug\System.IO.Packaging.dll
+C:\Users\MoustaphaPemy\source\repos\OSCAL\OSCALGenerator\OConvert\bin\Debug\System.Web.Helpers.dll
+C:\Users\MoustaphaPemy\source\repos\OSCAL\OSCALGenerator\OConvert\bin\Debug\System.Web.Optimization.dll
+C:\Users\MoustaphaPemy\source\repos\OSCAL\OSCALGenerator\OConvert\bin\Debug\System.Web.Razor.dll
+C:\Users\MoustaphaPemy\source\repos\OSCAL\OSCALGenerator\OConvert\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\MoustaphaPemy\source\repos\OSCAL\OSCALGenerator\OConvert\bin\Debug\System.Web.WebPages.dll
+C:\Users\MoustaphaPemy\source\repos\OSCAL\OSCALGenerator\OConvert\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\MoustaphaPemy\source\repos\OSCAL\OSCALGenerator\OConvert\bin\Debug\WebGrease.dll
+C:\Users\MoustaphaPemy\source\repos\OSCAL\OSCALGenerator\OConvert\bin\Debug\Antlr3.Runtime.pdb
+C:\Users\MoustaphaPemy\source\repos\OSCAL\OSCALGenerator\OConvert\bin\Debug\DocumentFormat.OpenXml.xml
+C:\Users\MoustaphaPemy\source\repos\OSCAL\OSCALGenerator\OConvert\bin\Debug\log4net.xml
+C:\Users\MoustaphaPemy\source\repos\OSCAL\OSCALGenerator\OConvert\bin\Debug\Newtonsoft.Json.xml
+C:\Users\MoustaphaPemy\source\repos\OSCAL\OSCALGenerator\OConvert\bin\Debug\System.Web.Helpers.xml
+C:\Users\MoustaphaPemy\source\repos\OSCAL\OSCALGenerator\OConvert\bin\Debug\System.Web.Optimization.xml
+C:\Users\MoustaphaPemy\source\repos\OSCAL\OSCALGenerator\OConvert\bin\Debug\System.Web.Razor.xml
+C:\Users\MoustaphaPemy\source\repos\OSCAL\OSCALGenerator\OConvert\bin\Debug\System.Web.WebPages.xml
+C:\Users\MoustaphaPemy\source\repos\OSCAL\OSCALGenerator\OConvert\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\MoustaphaPemy\source\repos\OSCAL\OSCALGenerator\OConvert\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\MoustaphaPemy\source\repos\OSCAL\OSCALGenerator\OConvert\obj\Debug\OConvert.csproj.CopyComplete
+C:\Users\MoustaphaPemy\source\repos\OSCAL\OSCALGenerator\OConvert\obj\Debug\OConvert.exe
+C:\Users\MoustaphaPemy\source\repos\OSCAL\OSCALGenerator\OConvert\obj\Debug\OConvert.pdb
+C:\Users\MoustaphaPemy\source\repos\OSCAL\OSCALGenerator\OConvert\obj\Debug\OConvert.csprojAssemblyReference.cache
+C:\Users\Dell\source\repos\OSCALGenerator\OConvert\bin\Debug\OConvert.exe.config
+C:\Users\Dell\source\repos\OSCALGenerator\OConvert\bin\Debug\OConvert.exe
+C:\Users\Dell\source\repos\OSCALGenerator\OConvert\bin\Debug\OConvert.pdb
+C:\Users\Dell\source\repos\OSCALGenerator\OConvert\bin\Debug\Antlr3.Runtime.dll
+C:\Users\Dell\source\repos\OSCALGenerator\OConvert\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\Dell\source\repos\OSCALGenerator\OConvert\bin\Debug\log4net.dll
+C:\Users\Dell\source\repos\OSCALGenerator\OConvert\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\Dell\source\repos\OSCALGenerator\OConvert\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Dell\source\repos\OSCALGenerator\OConvert\bin\Debug\System.IO.FileSystem.Primitives.dll
+C:\Users\Dell\source\repos\OSCALGenerator\OConvert\bin\Debug\System.IO.Packaging.dll
+C:\Users\Dell\source\repos\OSCALGenerator\OConvert\bin\Debug\System.Web.Helpers.dll
+C:\Users\Dell\source\repos\OSCALGenerator\OConvert\bin\Debug\System.Web.Optimization.dll
+C:\Users\Dell\source\repos\OSCALGenerator\OConvert\bin\Debug\System.Web.Razor.dll
+C:\Users\Dell\source\repos\OSCALGenerator\OConvert\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\Dell\source\repos\OSCALGenerator\OConvert\bin\Debug\System.Web.WebPages.dll
+C:\Users\Dell\source\repos\OSCALGenerator\OConvert\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\Dell\source\repos\OSCALGenerator\OConvert\bin\Debug\WebGrease.dll
+C:\Users\Dell\source\repos\OSCALGenerator\OConvert\bin\Debug\Antlr3.Runtime.pdb
+C:\Users\Dell\source\repos\OSCALGenerator\OConvert\bin\Debug\DocumentFormat.OpenXml.xml
+C:\Users\Dell\source\repos\OSCALGenerator\OConvert\bin\Debug\log4net.xml
+C:\Users\Dell\source\repos\OSCALGenerator\OConvert\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Dell\source\repos\OSCALGenerator\OConvert\bin\Debug\System.Web.Helpers.xml
+C:\Users\Dell\source\repos\OSCALGenerator\OConvert\bin\Debug\System.Web.Optimization.xml
+C:\Users\Dell\source\repos\OSCALGenerator\OConvert\bin\Debug\System.Web.Razor.xml
+C:\Users\Dell\source\repos\OSCALGenerator\OConvert\bin\Debug\System.Web.WebPages.xml
+C:\Users\Dell\source\repos\OSCALGenerator\OConvert\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\Dell\source\repos\OSCALGenerator\OConvert\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\Dell\source\repos\OSCALGenerator\OConvert\obj\Debug\OConvert.csprojAssemblyReference.cache
+C:\Users\Dell\source\repos\OSCALGenerator\OConvert\obj\Debug\OConvert.csproj.CoreCompileInputs.cache
+C:\Users\Dell\source\repos\OSCALGenerator\OConvert\obj\Debug\OConvert.csproj.CopyComplete
+C:\Users\Dell\source\repos\OSCALGenerator\OConvert\obj\Debug\OConvert.exe
+C:\Users\Dell\source\repos\OSCALGenerator\OConvert\obj\Debug\OConvert.pdb

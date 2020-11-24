@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<system-security-plan 
+    xmlns="OSCAL-SSP-metaschema_demo" >
+   <metadata>
+      <title></title>
+      <publication-date></publication-date>
+      <version></version>
+      <doc-id></doc-id>
+      <prop></prop>
+      <role id="role-ssp-by">
+         <title></title>
+         <desc>desc>
+      </role>
+      <role id="role-ssp-for">
+         <title></title>
+         <desc></desc>
+      </role>
+      <role id="role-ssp-approver">
+         <title></title>
+         <desc></desc>
+      </role>
+      <role id="role-system-owner">
+         <title></title>
+         <desc></desc>
+      </role>
+      <role id="role-system-ao">
+         <title></title>
+         <desc></desc>
+      </role>
+      <role id="role-system-poc-manager">
+         <title></title>
+         <desc></desc>
+      </role>
+      <role id="role-system-poc-technical">
+         <title></title>
+         <desc></desc>
+      </role>
+      <role id="role-system-poc-general">
+         <title></title>
+         <desc></desc>
+      </role>
+      <role id="role-system-isso">
+         <title></title>
+         <desc></desc>
+      </role>
+      <role id="role-system-ap-poc">
+         <title></title>
+         <desc></desc>
+      </role>
+      <role id="role-system-privacy-officer">
+         <title></title>
+         <desc></desc>
+      </role>
+      <role id="role-director">
+         <title></title>
+      </role>
+      <party id="csp" role-id="role-ssp-by, role-ssp-for">
+         <org>
+            <org-name></org-name>
+            <short-name></short-name>
+            <org-id/>
+            <address>
+               <addr-line></addr-line>
+               <addr-line></addr-line>
+               <city></city>
+               <state></state>
+               <postal-code></postal-code>
+               <country></country>
+            </address>
+            <notes>
+               <p></p>
+            </notes>
+         </org>
+      </party>
+   </metadata>
+</system-security-plan>

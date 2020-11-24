@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="FedRAMP-compliance-worksheet.xsl"?>
+<system-security-plan xmlns="http://csrc.nist.gov/ns/oscal/1.0"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               id="SSP-sample"
+               xsi:schemaLocation="http://csrc.nist.gov/ns/oscal/1.0 oscal_ssp_schema.xsd">
+   <metadata>
+      <title></title>
+      <last-modified></last-modified>
+      <version></version>
+      <oscal-version></oscal-version>
+      <prop name="sensitivity-label">Company Sensitive and Proprietary</prop>
+      <role id="role-ssp-by">
+         <title>OSCALHelperClasses.Item</title>
+         <desc>The organization that prepared this SSP. If developed in-house, this is the CSP itself.</desc>
+      </role>
+      <role id="role-ssp-for">
+         <title>OSCALHelperClasses.Item</title>
+         <desc>The organization for which this SSP was prepared. Typically the CSP.</desc>
+      </role>
+      <role id="role-ssp-approver">
+         <title>OSCALHelperClasses.Item</title>
+         <desc>The individual or individuals within the CSP authorized to take responsibility for the accuracy of this SSP.</desc>
+      </role>
+      <role id="role-system-owner">
+         <title>OSCALHelperClasses.Item</title>
+         <desc>The individual within the CSP who is ultimately accountable for everything related to this system.</desc>
+      </role>
+      <role id="role-system-ao">
+         <title>OSCALHelperClasses.Item</title>
+         <desc>The individual or individuals who must grant this system an authorization to operate.</desc>
+      </role>
+      <role id="role-system-poc-manager">
+         <title>OSCALHelperClasses.Item</title>
+         <desc>The highest level manager who responsible for system operation on behalf of the System Owner.</desc>
+      </role>
+      <role id="role-system-poc-technical">
+         <title>OSCALHelperClasses.Item</title>
+         <desc>The individual or individuals leading the technical operation of the system.</desc>
+      </role>
+      <role id="role-system-poc-general">
+         <title>OSCALHelperClasses.Item</title>
+         <desc>A general point of contact for the system, designated by the system owner.</desc>
+      </role>
+      <role id="role-system-isso">
+         <title>OSCALHelperClasses.Item</title>
+         <desc>The individual accountable for the security posture of the system on behalf of the system owner.</desc>
+      </role>
+      <role id="role-system-ap-poc">
+         <title>OSCALHelperClasses.Item</title>
+         <desc>The individual representing the authorizing official.</desc>
+      </role>
+      <role id="role-system-privacy-officer">
+         <title>OSCALHelperClasses.Item</title>
+         <desc>The individual responsible for the privacy threshold analysis and if necessary the privacy impact assessment.</desc>
+      </role>
+      <role id="role-director">
+         <title>OSCALHelperClasses.Item</title>
+         <desc></desc>
+      </role>
+      <party id="csp">
+         <org>
+            <org-name>General Dynamics Information Technology</org-name>
+            <short-name>GDIT</short-name>
+            <org-id></org-id>
+            <address>
+               <addr-line>Suite 100</addr-line>
+               <addr-line></addr-line>
+               <city>Fairfax</city>
+               <state>VA</state>
+               <postal-code>22031</postal-code>
+               <country>us</country>
+            </address>
+            <remarks>
+               <p>None</p>
+            </remarks>
+         </org>
+      </party>
+      <party id="party-001">
+         <org>
+            <org-name>General Dynamics Information Technology</org-name>
+            <short-name>GDIT</short-name>
+            <org-id>csp</org-id>
+            <address>
+               <addr-line>11400 Westmoor Circle</addr-line>
+               <addr-line></addr-line>
+               <city>Westminster</city>
+               <state>CO</state>
+               <postal-code>80021</postal-code>
+               <country>US</country>
+            </address>
+            <remarks>
+               <p>None</p>
+            </remarks>
+         </org>
+      </party>
+      <party id="party-002">
+         <org>
+            <org-name>General Dynamics Information Technology</org-name>
+            <short-name>GDIT</short-name>
+            <org-id>csp</org-id>
+            <address>
+               <addr-line>11400 Westmoor Circle</addr-line>
+               <addr-line></addr-line>
+               <city>Westminster</city>
+               <state>CO</state>
+               <postal-code>80021</postal-code>
+               <country>US</country>
+            </address>
+            <remarks>
+               <p>None</p>
+            </remarks>
+         </org>
+      </party>
+      <responsible-party role-id="role-ssp-by">
+         <party-id>csp</party-id>
+      </responsible-party>
+      <responsible-party role-id="role-ssp-for">
+         <party-id>csp</party-id>
+      </responsible-party>
+      <responsible-party role-id="role-ssp-approver">
+         <party-id>party-001party-002</party-id>
+      </responsible-party>
+      <responsible-party role-id="role-system-owner">
+         <party-id>party-001</party-id>
+      </responsible-party>
+      <responsible-party role-id="role-director">
+         <party-id>party-001</party-id>
+      </responsible-party>
+      <responsible-party role-id="role-system-poc-manager">
+         <party-id>party-001</party-id>
+      </responsible-party>
+      <responsible-party role-id="role-system-isso">
+         <party-id>party-002</party-id>
+      </responsible-party>
+      <responsible-party role-id="role-system-poc-technical">
+         <party-id>party-002</party-id>
+      </responsible-party>
+   </metadata>
+   <system-characteristics>
+      <system-id></system-id>
+      <system-name></system-name>
+      <system-name-short></system-name-short>
+      <security-sensitivity-level></security-sensitivity-level>
+   </system-characteristics>
+</system-security-plan>

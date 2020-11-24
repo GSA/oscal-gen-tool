@@ -1,0 +1,948 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F23F0C39-F241-461C-8BF3-9C4716D33088}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>OSCALGenerator</RootNamespace>
+    <AssemblyName>OSCALGenerator</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44307</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DocumentFormat.OpenXml, Version=2.5.5631.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\DocumentFormat.OpenXml.2.9.1\lib\net46\DocumentFormat.OpenXml.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="SqlDataProvider">
+      <HintPath>DataLayer\SqlDataProvider.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="AspNet.ScriptManager.bootstrap">
+      <HintPath>..\packages\AspNet.ScriptManager.bootstrap.3.4.1\lib\net45\AspNet.ScriptManager.bootstrap.dll</HintPath>
+    </Reference>
+    <Reference Include="AspNet.ScriptManager.jQuery">
+      <HintPath>..\packages\AspNet.ScriptManager.jQuery.3.4.1\lib\net45\AspNet.ScriptManager.jQuery.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ScriptManager.MSAjax">
+      <HintPath>..\packages\Microsoft.AspNet.ScriptManager.MSAjax.5.0.0\lib\net45\Microsoft.ScriptManager.MSAjax.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ScriptManager.WebForms">
+      <HintPath>..\packages\Microsoft.AspNet.ScriptManager.WebForms.5.0.0\lib\net45\Microsoft.ScriptManager.WebForms.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Optimization, Version=1.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="WebGrease">
+      <Private>True</Private>
+      <HintPath>..\packages\WebGrease.1.6.0\lib\WebGrease.dll</HintPath>
+    </Reference>
+    <Reference Include="Antlr3.Runtime">
+      <Private>True</Private>
+      <HintPath>..\packages\Antlr.3.5.0.2\lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Web.Optimization.WebForms">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.WebForms.1.1.3\lib\net45\Microsoft.AspNet.Web.Optimization.WebForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.FriendlyUrls">
+      <HintPath>..\packages\Microsoft.AspNet.FriendlyUrls.Core.1.0.2\lib\net45\Microsoft.AspNet.FriendlyUrls.dll</HintPath>
+    </Reference>
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="About.aspx" />
+    <Content Include="Contact.aspx" />
+    <Content Include="Content\bootstrap-theme.css" />
+    <Content Include="Content\bootstrap-theme.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Site.css" />
+    <Content Include="CustomControls\Parameters.ascx" />
+    <Content Include="CustomControls\Statements.ascx" />
+    <Content Include="Default.aspx" />
+    <Content Include="DocID.aspx" />
+    <Content Include="favicon.ico" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Global.asax" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\bootstrap.min.css.map" />
+    <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Content\bootstrap-theme.min.css.map" />
+    <Content Include="Content\bootstrap-theme.css.map" />
+    <None Include="Scripts\jquery-3.4.1.intellisense.js" />
+    <Content Include="PagesSAP\Import-SSP\ImportSSP.aspx" />
+    <Content Include="PagesSAP\Metadata\DocID.aspx" />
+    <Content Include="PagesSAP\Metadata\LocationsSAP.aspx" />
+    <Content Include="PagesSAP\Metadata\Parties.aspx" />
+    <Content Include="PagesSAP\Metadata\ResponsibleParties.aspx" />
+    <Content Include="PagesSAP\Metadata\RevisionHistorySAP.aspx" />
+    <Content Include="PagesSAP\Metadata\Roles.aspx" />
+    <Content Include="PagesSAP\Metadata\Title.aspx" />
+    <Content Include="PagesSAP\Objectives\Methods.aspx" />
+    <Content Include="PagesSAP\Objectives\Objectives.aspx" />
+    <Content Include="PagesSAP\SAPHome.aspx" />
+    <Content Include="PagesSAR\HomeSAR.aspx" />
+    <Content Include="PagesSAR\Metadata\DocID.aspx" />
+    <Content Include="PagesSAR\Metadata\Locations.aspx" />
+    <Content Include="PagesSAR\Metadata\Parties.aspx" />
+    <Content Include="PagesSAR\Metadata\ResponsibleParties.aspx" />
+    <Content Include="PagesSAR\Metadata\RevisionHistory.aspx" />
+    <Content Include="PagesSAR\Metadata\Roles.aspx" />
+    <Content Include="PagesSAR\Metadata\Title.aspx" />
+    <Content Include="PagesSAR\Objectives\Methods.aspx" />
+    <Content Include="PagesSAR\Objectives\Objectives.aspx" />
+    <Content Include="PageSSP\Import-Profile\ImportProfile.aspx" />
+    <Content Include="PageSSP\Metadata\DocID.aspx" />
+    <Content Include="PageSSP\Metadata\LocationsSSP.aspx" />
+    <Content Include="PageSSP\Metadata\Parties.aspx" />
+    <Content Include="PageSSP\Metadata\ResponsibleParties.aspx" />
+    <Content Include="PageSSP\Metadata\RevisionHistorySSP.aspx" />
+    <Content Include="PageSSP\Metadata\Roles.aspx" />
+    <Content Include="PageSSP\Metadata\Title.aspx" />
+    <Content Include="PageSSP\SystemImplementation\Components.aspx" />
+    <Content Include="PageSSP\SystemImplementation\ImplementedComponents.aspx" />
+    <Content Include="PageSSP\SystemImplementation\InventoryItems.aspx" />
+    <Content Include="PageSSP\SystemImplementation\Remarks.aspx" />
+    <Content Include="PageSSP\SystemImplementation\Users.aspx" />
+    <Content Include="Pages\BackMatter\Citations.aspx" />
+    <Content Include="Pages\BackMatter\Resources.aspx" />
+    <Content Include="Pages\BasePage.aspx" />
+    <Content Include="Pages\ControlImplementation\Controls.aspx" />
+    <Content Include="Pages\DocumentElementDetail.aspx" />
+    <Content Include="Pages\DocumentElementHeader.aspx" />
+    <Content Include="Pages\Home.aspx" />
+    <Content Include="Pages\Metadata\Parties.aspx" />
+    <Content Include="Pages\Metadata\ResponsibleParties.aspx" />
+    <Content Include="Pages\Metadata\Roles.aspx" />
+    <Content Include="Pages\Metadata\Title.aspx" />
+    <Content Include="Pages\SystemCharacteristics\AuthorizationBoundary.aspx" />
+    <Content Include="Pages\SystemCharacteristics\SecurityImpactLevel.aspx" />
+    <Content Include="Pages\SystemCharacteristics\SystemIdentification.aspx" />
+    <Content Include="Pages\SystemCharacteristics\SystemInfoTypes.aspx" />
+    <Content Include="Pages\SystemImplementation\Users.aspx" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\jquery-3.4.1.js" />
+    <Content Include="Scripts\jquery-3.4.1.min.js" />
+    <Content Include="Scripts\jquery-3.4.1.slim.js" />
+    <Content Include="Scripts\jquery-3.4.1.slim.min.js" />
+    <Content Include="Scripts\modernizr-2.8.3.js" />
+    <Content Include="Scripts\WebForms\DetailsView.js" />
+    <Content Include="Scripts\WebForms\Focus.js" />
+    <Content Include="Scripts\WebForms\GridView.js" />
+    <Content Include="Scripts\WebForms\Menu.js" />
+    <Content Include="Scripts\WebForms\MenuStandards.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjax.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxApplicationServices.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxComponentModel.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxCore.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxGlobalization.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxHistory.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxNetwork.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxSerialization.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxTimer.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxWebForms.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxWebServices.js" />
+    <Content Include="Scripts\WebForms\SmartNav.js" />
+    <Content Include="Scripts\WebForms\TreeView.js" />
+    <Content Include="Scripts\WebForms\WebForms.js" />
+    <Content Include="Scripts\WebForms\WebParts.js" />
+    <Content Include="Scripts\WebForms\WebUIValidation.js" />
+    <Content Include="Site.Master" />
+    <Content Include="SiteSAP.Master" />
+    <Content Include="SiteSAR.Master" />
+    <Content Include="ViewSwitcher.ascx" />
+    <Content Include="Web.config" />
+    <Content Include="Bundle.config" />
+    <Content Include="Site.Mobile.Master" />
+    <Content Include="SiteDefault.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="About.aspx.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="About.aspx.designer.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Contact.aspx.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contact.aspx.designer.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CustomControls\Parameters.ascx.cs">
+      <DependentUpon>Parameters.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CustomControls\Parameters.ascx.designer.cs">
+      <DependentUpon>Parameters.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="CustomControls\Statements.ascx.cs">
+      <DependentUpon>Statements.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CustomControls\Statements.ascx.designer.cs">
+      <DependentUpon>Statements.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="PagesSAP\AssessmentActivities\Schedules.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PagesSAP\AssessmentActivities\Schedules.aspx.designer.cs" />
+    <Compile Include="PagesSAP\AssessmentActivities\TestMethods.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PagesSAP\AssessmentActivities\TestMethods.aspx.designer.cs" />
+    <Compile Include="PagesSAP\AssessmentSubject\ExcludeSubject.aspx.cs">
+      <DependentUpon>ExcludeSubject.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PagesSAP\AssessmentSubject\ExcludeSubject.aspx.designer.cs">
+      <DependentUpon>ExcludeSubject.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PagesSAP\AssessmentSubject\IncludeSubjects.aspx.cs">
+      <DependentUpon>IncludeSubjects.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PagesSAP\AssessmentSubject\IncludeSubjects.aspx.designer.cs">
+      <DependentUpon>IncludeSubjects.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PagesSAP\AssessmentSubject\LocalDefinitions\Components.aspx.cs">
+      <DependentUpon>Components.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PagesSAP\AssessmentSubject\LocalDefinitions\Components.aspx.designer.cs">
+      <DependentUpon>Components.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PagesSAP\AssessmentSubject\LocalDefinitions\ImplementedComponents.aspx.cs">
+      <DependentUpon>ImplementedComponents.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PagesSAP\AssessmentSubject\LocalDefinitions\ImplementedComponents.aspx.designer.cs">
+      <DependentUpon>ImplementedComponents.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PagesSAP\AssessmentSubject\LocalDefinitions\InventoryItems.aspx.cs">
+      <DependentUpon>InventoryItems.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PagesSAP\AssessmentSubject\LocalDefinitions\InventoryItems.aspx.designer.cs">
+      <DependentUpon>InventoryItems.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PagesSAP\AssessmentSubject\LocalDefinitions\Remarks.aspx.cs">
+      <DependentUpon>Remarks.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PagesSAP\AssessmentSubject\LocalDefinitions\Remarks.aspx.designer.cs">
+      <DependentUpon>Remarks.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PagesSAP\AssessmentSubject\LocalDefinitions\SAPUsers.aspx.cs">
+      <DependentUpon>SAPUsers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PagesSAP\AssessmentSubject\LocalDefinitions\SAPUsers.aspx.designer.cs">
+      <DependentUpon>SAPUsers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PagesSAP\Assets\Origination.aspx.cs">
+      <DependentUpon>Origination.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PagesSAP\Assets\Origination.aspx.designer.cs">
+      <DependentUpon>Origination.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PagesSAP\Assets\Tools.aspx.cs">
+      <DependentUpon>Tools.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PagesSAP\Assets\Tools.aspx.designer.cs">
+      <DependentUpon>Tools.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PagesSAP\Import-SSP\ImportSSP.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>ImportSSP.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PagesSAP\Import-SSP\ImportSSP.aspx.designer.cs">
+      <DependentUpon>ImportSSP.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PagesSAP\Metadata\DocID.aspx.cs">
+      <DependentUpon>DocID.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PagesSAP\Metadata\DocID.aspx.designer.cs">
+      <DependentUpon>DocID.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PagesSAP\Metadata\LocationsSAP.aspx.cs">
+      <DependentUpon>LocationsSAP.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PagesSAP\Metadata\LocationsSAP.aspx.designer.cs">
+      <DependentUpon>LocationsSAP.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PagesSAP\Metadata\Parties.aspx.cs">
+      <DependentUpon>Parties.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PagesSAP\Metadata\Parties.aspx.designer.cs">
+      <DependentUpon>Parties.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PagesSAP\Metadata\ResponsibleParties.aspx.cs">
+      <DependentUpon>ResponsibleParties.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PagesSAP\Metadata\ResponsibleParties.aspx.designer.cs">
+      <DependentUpon>ResponsibleParties.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PagesSAP\Metadata\RevisionHistorySAP.aspx.cs">
+      <DependentUpon>RevisionHistorySAP.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PagesSAP\Metadata\RevisionHistorySAP.aspx.designer.cs">
+      <DependentUpon>RevisionHistorySAP.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PagesSAP\Metadata\Roles.aspx.cs">
+      <DependentUpon>Roles.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PagesSAP\Metadata\Roles.aspx.designer.cs">
+      <DependentUpon>Roles.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PagesSAP\Metadata\Title.aspx.cs">
+      <DependentUpon>Title.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PagesSAP\Metadata\Title.aspx.designer.cs">
+      <DependentUpon>Title.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PagesSAP\Objectives\ControlObjectives.aspx.cs">
+      <DependentUpon>ControlObjectives.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PagesSAP\Objectives\ControlObjectives.aspx.designer.cs">
+      <DependentUpon>ControlObjectives.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PagesSAP\Objectives\Controls.aspx.cs">
+      <DependentUpon>Controls.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PagesSAP\Objectives\Controls.aspx.designer.cs">
+      <DependentUpon>Controls.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PagesSAP\Objectives\Description.aspx.cs">
+      <DependentUpon>Description.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PagesSAP\Objectives\Description.aspx.designer.cs">
+      <DependentUpon>Description.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PagesSAP\Objectives\Methods.aspx.cs">
+      <DependentUpon>Methods.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PagesSAP\Objectives\Methods.aspx.designer.cs">
+      <DependentUpon>Methods.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PagesSAP\Objectives\Objectives.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Objectives.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PagesSAP\Objectives\Objectives.aspx.designer.cs">
+      <DependentUpon>Objectives.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PagesSAP\SAPHome.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>SAPHome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PagesSAP\SAPHome.aspx.designer.cs">
+      <DependentUpon>SAPHome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PagesSAR\AssessmentActivities\Schedules.aspx.cs">
+      <DependentUpon>Schedules.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PagesSAR\AssessmentActivities\Schedules.aspx.designer.cs">
+      <DependentUpon>Schedules.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PagesSAR\AssessmentActivities\TestMethods.aspx.cs">
+      <DependentUpon>TestMethods.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PagesSAR\AssessmentActivities\TestMethods.aspx.designer.cs">
+      <DependentUpon>TestMethods.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PagesSAR\AssessmentSubjects\ExcludeSubject.aspx.cs">
+      <DependentUpon>ExcludeSubject.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PagesSAR\AssessmentSubjects\ExcludeSubject.aspx.designer.cs">
+      <DependentUpon>ExcludeSubject.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PagesSAR\AssessmentSubjects\IncludeSubjects.aspx.cs">
+      <DependentUpon>IncludeSubjects.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PagesSAR\AssessmentSubjects\IncludeSubjects.aspx.designer.cs">
+      <DependentUpon>IncludeSubjects.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PagesSAR\AssessmentSubjects\LocalDefinitions\Components.aspx.cs">
+      <DependentUpon>Components.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PagesSAR\AssessmentSubjects\LocalDefinitions\Components.aspx.designer.cs">
+      <DependentUpon>Components.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PagesSAR\AssessmentSubjects\LocalDefinitions\ImplementedComponents.aspx.cs">
+      <DependentUpon>ImplementedComponents.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PagesSAR\AssessmentSubjects\LocalDefinitions\ImplementedComponents.aspx.designer.cs">
+      <DependentUpon>ImplementedComponents.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PagesSAR\AssessmentSubjects\LocalDefinitions\InventoryItems.aspx.cs">
+      <DependentUpon>InventoryItems.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PagesSAR\AssessmentSubjects\LocalDefinitions\InventoryItems.aspx.designer.cs">
+      <DependentUpon>InventoryItems.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PagesSAR\AssessmentSubjects\LocalDefinitions\Remarks.aspx.cs">
+      <DependentUpon>Remarks.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PagesSAR\AssessmentSubjects\LocalDefinitions\Remarks.aspx.designer.cs">
+      <DependentUpon>Remarks.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PagesSAR\AssessmentSubjects\LocalDefinitions\SARUsers.aspx.cs">
+      <DependentUpon>SARUsers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PagesSAR\AssessmentSubjects\LocalDefinitions\SARUsers.aspx.designer.cs">
+      <DependentUpon>SARUsers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PagesSAR\Assets\Origination.aspx.cs">
+      <DependentUpon>Origination.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PagesSAR\Assets\Origination.aspx.designer.cs">
+      <DependentUpon>Origination.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PagesSAR\Assets\Tools.aspx.cs">
+      <DependentUpon>Tools.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PagesSAR\Assets\Tools.aspx.designer.cs">
+      <DependentUpon>Tools.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PagesSAR\HomeSAR.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>HomeSAR.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PagesSAR\HomeSAR.aspx.designer.cs">
+      <DependentUpon>HomeSAR.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PagesSAR\Import-AP\ImportAP.aspx.cs">
+      <DependentUpon>ImportAP.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PagesSAR\Import-AP\ImportAP.aspx.designer.cs">
+      <DependentUpon>ImportAP.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PagesSAR\Metadata\DocID.aspx.cs">
+      <DependentUpon>DocID.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PagesSAR\Metadata\DocID.aspx.designer.cs">
+      <DependentUpon>DocID.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PagesSAR\Metadata\Locations.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Locations.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PagesSAR\Metadata\Locations.aspx.designer.cs">
+      <DependentUpon>Locations.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PagesSAR\Metadata\Parties.aspx.cs">
+      <DependentUpon>Parties.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PagesSAR\Metadata\Parties.aspx.designer.cs">
+      <DependentUpon>Parties.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PagesSAR\Metadata\ResponsibleParties.aspx.cs">
+      <DependentUpon>ResponsibleParties.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PagesSAR\Metadata\ResponsibleParties.aspx.designer.cs">
+      <DependentUpon>ResponsibleParties.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PagesSAR\Metadata\RevisionHistory.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>RevisionHistory.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PagesSAR\Metadata\RevisionHistory.aspx.designer.cs">
+      <DependentUpon>RevisionHistory.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PagesSAR\Metadata\Roles.aspx.cs">
+      <DependentUpon>Roles.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PagesSAR\Metadata\Roles.aspx.designer.cs">
+      <DependentUpon>Roles.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PagesSAR\Metadata\Title.aspx.cs">
+      <DependentUpon>Title.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PagesSAR\Metadata\Title.aspx.designer.cs">
+      <DependentUpon>Title.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PagesSAR\Objectives\ControlObjectives.aspx.cs">
+      <DependentUpon>ControlObjectives.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PagesSAR\Objectives\ControlObjectives.aspx.designer.cs">
+      <DependentUpon>ControlObjectives.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PagesSAR\Objectives\Controls.aspx.cs">
+      <DependentUpon>Controls.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PagesSAR\Objectives\Controls.aspx.designer.cs">
+      <DependentUpon>Controls.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PagesSAR\Objectives\Description.aspx.cs">
+      <DependentUpon>Description.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PagesSAR\Objectives\Description.aspx.designer.cs">
+      <DependentUpon>Description.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PagesSAR\Objectives\Methods.aspx.cs">
+      <DependentUpon>Methods.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PagesSAR\Objectives\Methods.aspx.designer.cs">
+      <DependentUpon>Methods.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PagesSAR\Objectives\Objectives.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Objectives.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PagesSAR\Objectives\Objectives.aspx.designer.cs">
+      <DependentUpon>Objectives.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PagesSAR\Results\Findings.aspx.cs">
+      <DependentUpon>Findings.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PagesSAR\Results\Findings.aspx.designer.cs">
+      <DependentUpon>Findings.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PagesSAR\Results\Observations.aspx.cs">
+      <DependentUpon>Observations.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PagesSAR\Results\Observations.aspx.designer.cs">
+      <DependentUpon>Observations.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PagesSAR\Results\Results.aspx.cs">
+      <DependentUpon>Results.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PagesSAR\Results\Results.aspx.designer.cs">
+      <DependentUpon>Results.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PagesSAR\Results\Risks.aspx.cs">
+      <DependentUpon>Risks.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PagesSAR\Results\Risks.aspx.designer.cs">
+      <DependentUpon>Risks.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PageSSP\Import-Profile\ImportProfile.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>ImportProfile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PageSSP\Import-Profile\ImportProfile.aspx.designer.cs">
+      <DependentUpon>ImportProfile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PageSSP\Metadata\DocID.aspx.cs">
+      <DependentUpon>DocID.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PageSSP\Metadata\DocID.aspx.designer.cs">
+      <DependentUpon>DocID.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PageSSP\Metadata\LocationsSSP.aspx.cs">
+      <DependentUpon>LocationsSSP.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PageSSP\Metadata\LocationsSSP.aspx.designer.cs">
+      <DependentUpon>LocationsSSP.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PageSSP\Metadata\Parties.aspx.cs">
+      <DependentUpon>Parties.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PageSSP\Metadata\Parties.aspx.designer.cs">
+      <DependentUpon>Parties.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PageSSP\Metadata\ResponsibleParties.aspx.cs">
+      <DependentUpon>ResponsibleParties.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PageSSP\Metadata\ResponsibleParties.aspx.designer.cs">
+      <DependentUpon>ResponsibleParties.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PageSSP\Metadata\RevisionHistorySSP.aspx.cs">
+      <DependentUpon>RevisionHistorySSP.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PageSSP\Metadata\RevisionHistorySSP.aspx.designer.cs">
+      <DependentUpon>RevisionHistorySSP.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PageSSP\Metadata\Roles.aspx.cs">
+      <DependentUpon>Roles.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PageSSP\Metadata\Roles.aspx.designer.cs">
+      <DependentUpon>Roles.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PageSSP\Metadata\Title.aspx.cs">
+      <DependentUpon>Title.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PageSSP\Metadata\Title.aspx.designer.cs">
+      <DependentUpon>Title.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PageSSP\SystemImplementation\Components.aspx.cs">
+      <DependentUpon>Components.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PageSSP\SystemImplementation\Components.aspx.designer.cs">
+      <DependentUpon>Components.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PageSSP\SystemImplementation\ImplementedComponents.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>ImplementedComponents.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PageSSP\SystemImplementation\ImplementedComponents.aspx.designer.cs">
+      <DependentUpon>ImplementedComponents.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PageSSP\SystemImplementation\InventoryItems.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>InventoryItems.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PageSSP\SystemImplementation\InventoryItems.aspx.designer.cs">
+      <DependentUpon>InventoryItems.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PageSSP\SystemImplementation\Remarks.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Remarks.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PageSSP\SystemImplementation\Remarks.aspx.designer.cs">
+      <DependentUpon>Remarks.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PageSSP\SystemImplementation\Users.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Users.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PageSSP\SystemImplementation\Users.aspx.designer.cs">
+      <DependentUpon>Users.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\BackMatter\Citations.aspx.cs">
+      <DependentUpon>Citations.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\BackMatter\Citations.aspx.designer.cs">
+      <DependentUpon>Citations.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\BackMatter\Resources.aspx.cs">
+      <DependentUpon>Resources.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\BackMatter\Resources.aspx.designer.cs">
+      <DependentUpon>Resources.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\BasePage.aspx.cs">
+      <DependentUpon>BasePage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\BasePage.aspx.designer.cs">
+      <DependentUpon>BasePage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\ControlImplementation\Controls.aspx.cs">
+      <DependentUpon>Controls.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\ControlImplementation\Controls.aspx.designer.cs">
+      <DependentUpon>Controls.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\DocumentElementDetail.aspx.cs">
+      <DependentUpon>DocumentElementDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\DocumentElementDetail.aspx.designer.cs">
+      <DependentUpon>DocumentElementDetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\DocumentElementHeader.aspx.cs">
+      <DependentUpon>DocumentElementHeader.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\DocumentElementHeader.aspx.designer.cs">
+      <DependentUpon>DocumentElementHeader.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Metadata\Parties.aspx.cs">
+      <DependentUpon>Parties.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Metadata\Parties.aspx.designer.cs">
+      <DependentUpon>Parties.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Metadata\ResponsibleParties.aspx.cs">
+      <DependentUpon>ResponsibleParties.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Metadata\ResponsibleParties.aspx.designer.cs">
+      <DependentUpon>ResponsibleParties.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Metadata\Roles.aspx.cs">
+      <DependentUpon>Roles.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Metadata\Roles.aspx.designer.cs">
+      <DependentUpon>Roles.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Metadata\Title.aspx.cs">
+      <DependentUpon>Title.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Metadata\Title.aspx.designer.cs">
+      <DependentUpon>Title.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\SystemCharacteristics\AuthorizationBoundary.aspx.cs">
+      <DependentUpon>AuthorizationBoundary.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\SystemCharacteristics\AuthorizationBoundary.aspx.designer.cs">
+      <DependentUpon>AuthorizationBoundary.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\SystemCharacteristics\SecurityImpactLevel.aspx.cs">
+      <DependentUpon>SecurityImpactLevel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\SystemCharacteristics\SecurityImpactLevel.aspx.designer.cs">
+      <DependentUpon>SecurityImpactLevel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\SystemCharacteristics\SystemIdentification.aspx.cs">
+      <DependentUpon>SystemIdentification.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\SystemCharacteristics\SystemIdentification.aspx.designer.cs">
+      <DependentUpon>SystemIdentification.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\SystemCharacteristics\SystemInfoTypes.aspx.cs">
+      <DependentUpon>SystemInfoTypes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\SystemCharacteristics\SystemInfoTypes.aspx.designer.cs">
+      <DependentUpon>SystemInfoTypes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\SystemImplementation\Users.aspx.cs">
+      <DependentUpon>Users.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\SystemImplementation\Users.aspx.designer.cs">
+      <DependentUpon>Users.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Site.Mobile.Master.cs">
+      <DependentUpon>Site.Mobile.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Mobile.Master.designer.cs">
+      <DependentUpon>Site.Mobile.Master</DependentUpon>
+    </Compile>
+    <Compile Include="SiteDefault.Master.cs">
+      <DependentUpon>SiteDefault.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SiteDefault.Master.designer.cs">
+      <DependentUpon>SiteDefault.Master</DependentUpon>
+    </Compile>
+    <Compile Include="SiteSAP.Master.cs">
+      <DependentUpon>SiteSAP.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SiteSAP.Master.designer.cs">
+      <DependentUpon>SiteSAP.Master</DependentUpon>
+    </Compile>
+    <Compile Include="SiteSAR.Master.cs">
+      <DependentUpon>SiteSAR.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SiteSAR.Master.designer.cs">
+      <DependentUpon>SiteSAR.Master</DependentUpon>
+    </Compile>
+    <Compile Include="ViewSwitcher.ascx.cs">
+      <DependentUpon>ViewSwitcher.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ViewSwitcher.ascx.designer.cs">
+      <DependentUpon>ViewSwitcher.ascx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <Content Include="Scripts\jquery-3.4.1.slim.min.map" />
+    <Content Include="Scripts\jquery-3.4.1.min.map" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\OConvert\OConvert.csproj">
+      <Project>{386e19a3-9157-4de9-9d1e-9aa8f25a844d}</Project>
+      <Name>OConvert</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OSCALHelperClasses\OSCALHelperClasses\OSCALHelperClasses.csproj">
+      <Project>{64580b95-f90a-4bbb-8e4c-6165f9f2f88f}</Project>
+      <Name>OSCALHelperClasses</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>54311</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44307/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

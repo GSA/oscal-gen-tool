@@ -1,0 +1,4 @@
+C:\Users\MoustaphaPemy\source\repos\OSCALConverter\HelperClasses\HelperClasses\bin\Debug\HelperClasses.dll
+C:\Users\MoustaphaPemy\source\repos\OSCALConverter\HelperClasses\HelperClasses\bin\Debug\HelperClasses.pdb
+C:\Users\MoustaphaPemy\source\repos\OSCALConverter\HelperClasses\HelperClasses\obj\Debug\HelperClasses.dll
+C:\Users\MoustaphaPemy\source\repos\OSCALConverter\HelperClasses\HelperClasses\obj\Debug\HelperClasses.pdb

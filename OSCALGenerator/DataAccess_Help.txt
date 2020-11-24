@@ -1,0 +1,42 @@
+C# SQLDATAADAPTER NOTES
+
+using SqlDataProvider
+
+//Set Connection String and Data Provider
+SqlDataProvider.CSharpDAL dal = new SqlDataProvider.CSharpDAL(connectionstring);
+
+//Create Parameters
+SqlParameter[] oParams = new SqlParameter[2];
+oParams[0] = new SqlParameter("@UID", SqlDbType.VarChar, 50);
+oParams[0].Value = _uid;
+oParams[1] = new SqlParameter("@PWD", SqlDbType.VarChar, 50);
+oParams[1].Value = _pwd;
+
+
+//Execute Procedure With Parameters
+//Fill DataSet
+DataSet _ds = dal.FillDataset(GAPGlobals.DbProcedures.Sp_Check_GAPLogin, CommandType.StoredProcedure, oParams);
+
+//Execute Scalar
+object _sesG = null;
+_sesG = dal.ExecuteScalar(GAPGlobals.DbProcedures.Sp_Insert_SessionData, CommandType.StoredProcedure, oParams);
+
+//Execute Non Query
+ dal.ExecuteNonQuery(GAPGlobals.DbProcedures.Sp_Insert_Proposals, CommandType.StoredProcedure, oParams);
+
+
+//Execute Procedure WithOut Parameters
+//Fill DataSet
+DataSet _ds = dal.FillDataset(GAPGlobals.DbProcedures.Sp_Check_GAPLogin, CommandType.StoredProcedure);
+
+//Execute Scalar
+object _sesG = null;
+_sesG = dal.ExecuteScalar(GAPGlobals.DbProcedures.Sp_Insert_SessionData, CommandType.StoredProcedure);
+
+//Execute Non Query
+ dal.ExecuteNonQuery(GAPGlobals.DbProcedures.Sp_Insert_Proposals, CommandType.StoredProcedure);
+
+
+
+//Web.Config Connection
+<add name="APSProd" connectionString="Data Source=dbserver;Initial Catalog=dbName;Persist Security Info=True;User ID=uid;Password=pwd" providerName="System.Data.SqlClient"/>

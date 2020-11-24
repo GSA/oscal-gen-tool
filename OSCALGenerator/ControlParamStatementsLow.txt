@@ -1,0 +1,128 @@
+ ac-1, * Parameter AC-1(a): * Parameter AC-1(b)(1): * Parameter AC-1(b)(2):  @ # AC-1 What is the solution and how is it implemented?# Part a# Part b1# Part b2
+ ac-2, * Parameter AC-2(a):  * Parameter AC-2(e):  * Parameter AC-2(f):  * Parameter AC-2(j):   @ # AC-2 What is the solution and how is it implemented?# Part a# Part b# Part c# Part d# Part e# Part f# Part g# Part h# Part i# Part j# Part k
+ ac-3,  @ # AC-3 What is the solution and how is it implemented?#
+ ac-7, * Parameter AC-7(a)-1:  * Parameter AC-7(a)-2:  * Parameter AC-7(b)-1: * Parameter AC-7(b)-2:   @ # AC-7 What is the solution and how is it implemented?# Part a# Part b
+ ac-8, * Parameter AC-8(a):  * Parameter AC-8(c)-1:   @ # AC-8 What is the solution and how is it implemented?# Part a# Part b# Part c
+ ac-8req.,  @ 
+ ac-14, * Parameter AC-14(a):  @ # AC-14 What is the solution and how is it implemented?# Part a# Part b
+ ac-17,  @ # AC-17 What is the solution and how is it implemented?# Part a# Part b
+ ac-18,  @ # AC-18 What is the solution and how is it implemented?# Part a# Part b
+ ac-19,  @ # AC-19 What is the solution and how is it implemented?# Part a# Part b
+ ac-20,  @ # AC-20 What is the solution and how is it implemented?# Part a# Part b
+ ac-22, * Parameter AC-22:  @ # AC-22 What is the solution and how is it implemented?# Part a# Part b# Part c# Part d
+ at-1, * Parameter AT-1(a): * Parameter AT-1(b)(1):  * Parameter AT-1(b)(2):   @ # AT-1 What is the solution and how is it implemented?# Part a# Part b
+ at-2, * Parameter AT-2(c):  @ # AT-2 What is the solution and how is it implemented?# Part a# Part b# Part c
+ at-3, * Parameter AT-3(c):  @ # AT-3 What is the solution and how is it implemented?# Part a# Part b# Part c
+ at-4, * Parameter AT-4(b):  @ # AT-4 What is the solution and how is it implemented?# Part a# Part b
+ au-1, * Parameter AU-1(a):  * Parameter AU-1(b)(1): * Parameter AU-1(b)(2):   @ # AU-1 What is the solution and how is it implemented?# Part a# Part b
+ au-2, * Parameter AU-2(a): * Parameter AU-2(d):  @ # AU-2 What is the solution and how is it implemented?# Part a# Part b# Part c# Part d
+ au-3,  @ # AU-3 What is the solution and how is it implemented?#
+ au-4, * Parameter AU-4:  @ # AU-4 What is the solution and how is it implemented?#
+ au-5, * Parameter AU-5(a): * Parameter AU-5(b):  @ # AU-5 What is the solution and how is it implemented?# Part a# Part b
+ au-6, * Parameter AU-6(a)-1: * Parameter AU-6(a)-2: * Parameter AU-6(b):  @ # AU-6 What is the solution and how is it implemented?# Part a# Part b
+ au-8, * Parameter AU-8(b): @ # AU-8 What is the solution and how is it implemented?# Part a# Part b
+ au-9,  @ # AU-9 What is the solution and how is it implemented?#
+ au-11, * Parameter AU-11:  @ # AU-11 What is the solution and how is it implemented?#
+ au-12, * Parameter AU-12(a): * Parameter AU-12(b):  @ # AU-12 What is the solution and how is it implemented?# Part a# Part b# Part c
+ ca-1, * Parameter CA-1(a):* Parameter CA-1(b)(1):* Parameter CA-1(b)(2): @ # CA-1 What is the solution and how is it implemented?# Part a# Part b
+ ca-2, * Parameter CA-2(b): * Parameter CA-2(d):  @ # CA-2 What is the solution and how is it implemented?# Part a# Part b# Part c# Part d
+ ca-2.1, * Parameter CA-2(1): @ # CA-2 (1) What is the solution and how is it implemented?#
+ ca-3, * Parameter CA-3(c):  @ # CA-3 What is the solution and how is it implemented?# Part a# Part b# Part c
+ ca-5, * Parameter CA-5(b):  @ # CA-5 What is the solution and how is it implemented?# Part a# Part b
+ ca-6, * Parameter CA-6(c):  @ # CA-6 What is the solution and how is it implemented?# Part a# Part b# Part c
+ ca-7, * Parameter CA-7(a): * Parameter CA-7(b)-1: * Parameter CA-7(b)-2: * Parameter CA-7(g)-1: * Parameter CA-7(g)-2:  @ # CA-7 What is the solution and how is it implemented?# Part a# Part b# Part c# Part d# Part e# Part f# Part g
+ ca-7req.,  @ 
+ ca-9, * Parameter CA-9(a): @ # CA-9 What is the solution and how is it implemented?# Part a# Part b
+ cm-1, * Parameter CM-1(a): * Parameter CM-1(b)(1): * Parameter CM-1(b)(2):  @ # CM-1 What is the solution and how is it implemented?# Part a# Part b
+ cm-2,  @ # CM-2 What is the solution and how is it implemented?# 
+ cm-4,  @ # CM-4 What is the solution and how is it implemented?#
+ cm-6, * Parameter CM-6(a)-1: * Parameter CM-6(a)-2:* Parameter CM-6(c)-1: * Parameter CM-6(c)-2:  @ # CM-6 What is the solution and how is it implemented?# Part a# Part b# Part c# Part d
+ cm-7, * Parameter CM-7(b):   @ # CM-7 What is the solution and how is it implemented?# Part a# Part b
+ cm-8, * Parameter CM-8(a)(4): * Parameter CM-8(b):  @ # CM-8 What is the solution and how is it implemented?# Part a# Part b
+ cm-10,  @ # CM-10 What is the solution and how is it implemented?# Part a# Part b# Part c
+ cm-11, * Parameter CM-11(a): * Parameter CM-11(b):* Parameter CM-11(c): @ # CM-11 What is the solution and how is it implemented?# Part a# Part b# Part c
+ cp-1, * Parameter CP-1(a):  * Parameter CP-1(b)(1): * Parameter CP-1(b)(2): @ # CP-1 What is the solution and how is it implemented?# Part a# Part b
+ cp-2, * Parameter CP-2(a)(6): * Parameter CP-2(b):  * Parameter CP-2(d):  * Parameter CP-2(f):   @ # CP-2 What is the solution and how is it implemented?# Part a# Part b# Part c# Part d# Part e# Part f# Part g
+ cp-3, * Parameter CP-3(a): * Parameter CP-3(c):  @ # CP-3 What is the solution and how is it implemented?#
+ cp-4, * Parameter CP-4(a)-1:  * Parameter CP-4(a)-2:  @ # CP-4 What is the solution and how is it implemented?# Part a# Part b# Part c
+ cp-9, * Parameter CP-9(a): * Parameter CP-9(b): * Parameter CP-9(c):  @ # CP-9 What is the solution and how is it implemented?# Part a# Part b# Part c# Part d
+ cp-10,  @ # CP-10 What is the solution and how is it implemented?#
+ ia-1, * Parameter IA-1(a):  * Parameter IA-1(b)(1):  @ # IA-1 What is the solution and how is it implemented?# Part a# Part b
+ ia-2,  @ # IA-2 What is the solution and how is it implemented?# 
+ ia-2.1,  @ # IA-2 (1) What is the solution and how is it implemented?# 
+ ia-2.12,  @ # IA-2 (12) What is the solution and how is it implemented?#
+ ia-4, * Parameter  IA-4(a):* Parameter IA-4(d):* Parameter IA-4(e): @ # IA-4 What is the solution and how is it implemented?# Part a# Part b# Part c# Part d# Part e
+ ia-5, * Parameter IA-5(g): @ # IA-5 What is the solution and how is it implemented?# Part a# Part b# Part c# Part d# Part e# Part f# Part g# Part h# Part i# Part j
+ ia-5.1, * Parameter IA-5(1)(a):* Parameter IA-5(1)(b):* Parameter IA-5(1)(d):* Parameter IA-5(1)(e): @ # IA-5 (1) What is the solution and how is it implemented?# Part a# Part b# Part c# Part d# Part e# Part f
+ ia-5.11, * Parameter IA-5(11): @ # IA-5 (11) What is the solution and how is it implemented?#
+ ia-6,  @ # IA-6 What is the solution and how is it implemented?#
+ ia-7,  @ # IA-7 What is the solution and how is it implemented?#
+ ia-8,  @ # IA-8 What is the solution and how is it implemented?#
+ ia-8.1,  @ # IA-8 (1) What is the solution and how is it implemented?#
+ ia-8.2,  @ # IA-8 (2) What is the solution and how is it implemented?#
+ ia-8.3, * Parameter IA-8(3): @ # IA-8 (3) What is the solution and how is it implemented?#
+ ia-8.4,  @ # IA-8 (4) What is the solution and how is it implemented?#
+ ir-1, * Parameter IR-1(a):* Parameter IR-1(b)(1):* Parameter IR-1(b)(2): @ # IR-1 What is the solution and how is it implemented?# Part a# Part b
+ ir-2, * Parameter IR-2(a):* Parameter IR-2(c): @ # IR-2 What is the solution and how is it implemented?# Part a# Part b# Part c
+ ir-4,  @ # IR-4 What is the solution and how is it implemented?# Part a# Part b# Part c
+ ir-5,  @ # IR-5 What is the solution and how is it implemented?#
+ ir-6, * Parameter IR-6(a):* Parameter IR-6(b): @ # IR-6 What is the solution and how is it implemented?# Part a# Part b
+ ir-7,  @ # IR-7 What is the solution and how is it implemented?#
+ ir-8, * Parameter IR-8(a)(8):* Parameter IR-8(b):* Parameter IR-8(c):* Parameter IR-8(e): @ # IR-8 What is the solution and how is it implemented?# Part a# Part b# Part c# Part d# Part e# Part f
+ ma-1, * Parameter MA-1(a):* Parameter MA-1(b)(1):* Parameter MA-1(b)(2): @ # MA-1 What is the solution and how is it implemented?# Part a# Part b
+ ma-2, * Parameter MA-2(c):* Parameter MA-2(f): @ # MA-2 What is the solution and how is it implemented?# Part a# Part b# Part c# Part d# Part e# Part f
+ ma-4,  @ # MA-4 What is the solution and how is it implemented?# Part a# Part b# Part c# Part d# Part e
+ ma-5,  @ # MA-5 What is the solution and how is it implemented?# Part a# Part b# Part c
+ mp-1, * Parameter MP-1(a):* Parameter MP-1(b)(1):* Parameter MP-1(b)(2): @ # MP-1 What is the solution and how is it implemented?# Part a# Part b
+ mp-2, * Parameter MP-2-1:* Parameter MP-2-2: @ # MP-2 What is the solution and how is it implemented?#
+ mp-6, * Parameter MP-6(a)-1:* Parameter MP-6(a)-2: @ # MP-6 What is the solution and how is it implemented?# Part a# Part b
+ mp-7, * Parameter MP-7-1:* Parameter MP-7-2:* Parameter MP-7-3:* Parameter MP-7-4: @ # MP-7 What is the solution and how is it implemented?#
+ pe-1, * Parameter PE-1(a):* Parameter PE-1(b)(1):* Parameter PE-1(b)(2): @ # PE-1 What is the solution and how is it implemented?# Part a# Part b
+ pe-2, * Parameter PE-2(c): @ # PE-2 What is the solution and how is it implemented?# Part a# Part b# Part c# Part d
+ pe-3, * Parameter PE-3(a):* Parameter PE-3(a)(2): * Parameter PE-3(b):* Parameter PE-3(c):* Parameter PE-3(d):* Parameter PE-3(f)-1:* Parameter PE-3(f)-2:* Parameter PE-3(g): @ # PE-3 What is the solution and how is it implemented?# Part a# Part b# Part c# Part d# Part e# Part f# Part g
+ pe-6, * Parameter PE-6(b)-1:* Parameter PE-6(b)-2: @ # PE-6 What is the solution and how is it implemented?# Part a# Part b# Part c
+ pe-8, * Parameter PE-8(a):* Parameter PE-8(b): @ # PE-8 What is the solution and how is it implemented?# Part a# Part b
+ pe-12,  @ # PE-12 What is the solution and how is it implemented?#
+ pe-13,  @ # PE-13 What is the solution and how is it implemented?#
+ pe-14, * Parameter PE-14(a):* Parameter PE-14(b):* Parameter PE-14(b) Additional: @ # PE-14 What is the solution and how is it implemented?# Part a# Part b
+ pe-15,  @ # PE-15 What is the solution and how is it implemented?#
+ pe-16, * Parameter PE-16:  @ # PE-16 What is the solution and how is it implemented?#
+ pl-1, * Parameter PL-1(a):* Parameter PL-1(b)(1):* Parameter PL-1(b)(2): @ # PL-1 What is the solution and how is it implemented?# Part a# Part b
+ pl-2, * Parameter PL-2(b): * Parameter PL-2(c): @ # PL-2 What is the solution and how is it implemented?# Part a# Part b# Part c# Part d# Part e
+ pl-4, * Parameter PL-4(c): @ # PL-4 What is the solution and how is it implemented?# Part a# Part b# Part c# Part d
+ ps-1, * Parameter PS-1(a):* Parameter PS-1(b)(1):* Parameter PS-1(b)(2): @ # PS-1 What is the solution and how is it implemented?# Part a# Part b
+ ps-2, * Parameter PS-2(c): @ # PS-2 What is the solution and how is it implemented?# Part a# Part b# Part c
+ ps-3, * Parameter PS-3(b): @ # PS-3 What is the solution and how is it implemented?# Part a# Part b
+ ps-4, * Parameter PS-4(a):* Parameter PS-4(c):* Parameter PS-4(f)-1:* Parameter PS-4(f)-2: @ # PS-4 What is the solution and how is it implemented?# Part a# Part b# Part c# Part d# Part e# Part f
+ ps-5, * Parameter PS-5(b)-1:* Parameter PS-5(b)-2:* Parameter PS-5(d)-1:* Parameter PS-5(d)-2: @ # PS-5 What is the solution and how is it implemented?# Part a# Part b# Part c# Part d
+ ps-6, * Parameter PS-6(b):* Parameter PS-6(c)(2): @ # PS-6 What is the solution and how is it implemented?# Part a# Part b# Part c
+ ps-7, * Parameter PS-7(d)-1:* Parameter PS-7(d)-2: @ # PS-7 What is the solution and how is it implemented?# Part a# Part b# Part c# Part d# Part e
+ ps-8, * Parameter PS-8(b)-1:* Parameter PS-8(b)-2: @ # PS-8 What is the solution and how is it implemented?# Part a# Part b
+ ra-1, * Parameter RA-1(a):* Parameter RA-1(b)(1):* Parameter RA-1(b)(2): @ # RA-1 What is the solution and how is it implemented?# Part a# Part b
+ ra-2,  @ # RA-2 What is the solution and how is it implemented?# Part a# Part b# Part c
+ ra-3, * Parameter RA-3(b):* Parameter RA-3(c):* Parameter RA-3(d):* Parameter RA-3(e): @ # RA-3 What is the solution and how is it implemented?# Part a# Part b# Part c# Part d# Part e
+ ra-5, * Parameter RA-5(a):* Parameter RA-5(d):* Parameter RA-5(e): @ # RA-5 What is the solution and how is it implemented?# Part a# Part b# Part c# Part d# Part e
+ sa-1, * Parameter SA-1(a):* Parameter SA-1(b)(1):* Parameter SA-1(b)(2): @ # SA-1 What is the solution and how is it implemented?# Part a# Part b
+ sa-2,  @ # SA-2 What is the solution and how is it implemented?# Part a# Part b# Part c
+ sa-3, * Parameter SA-3(a): @ # SA-3 What is the solution and how is it implemented?# Part a# Part b# Part c# Part d
+ sa-4,  @ # SA-4 What is the solution and how is it implemented?# Part a# Part b# Part c# Part d# Part e# Part f# Part g
+ sa-5, * Parameter SA-5(c):* Parameter SA-5(e): @ # SA-5 What is the solution and how is it implemented?# Part a# Part b# Part c# Part d# Part e
+ sa-9, * Parameter SA-9(a):* Parameter SA-9(c): @ # SA-9 What is the solution and how is it implemented?# Part a# Part b# Part c
+ sc-1, * Parameter SC-1(a):* Parameter SC-1(b)(1):* Parameter SC-1(b)(2): @ # SC-1 What is the solution and how is it implemented?# Part a# Part b
+ sc-5, * Parameter SC-5-1:* Parameter SC-5-2: @ # SC-5 What is the solution and how is it implemented?#
+ sc-7, * Parameter SC-7(b): @ # SC-7 What is the solution and how is it implemented?# Part a# Part b# Part c
+ sc-12, * Parameter SC-12: @ # SC-12 What is the solution and how is it implemented?#
+ sc-13, * Parameter SC-13: @ # SC-13 What is the solution and how is it implemented?#
+ sc-15, * Parameter SC-15(a): @ # SC-15 What is the solution and how is it implemented?# Part a# Part b
+ sc-15req.,  @ 
+ sc-20,  @ # SC-20 What is the solution and how is it implemented?# Part a# Part b
+ sc-21,  @ # SC-21 What is the solution and how is it implemented?#
+ sc-22,  @ # SC-22 What is the solution and how is it implemented?#
+ sc-39,  @ # SC-39 What is the solution and how is it implemented?#
+ si-1, * Parameter SI-1(a):* Parameter SI-1(b)(1):* Parameter SI-1(b)(2): @ # SI-1 What is the solution and how is it implemented?# Part a# Part b
+ si-2, * Parameter SI-2(c): @ # SI-2 What is the solution and how is it implemented?# Part a# Part b# Part c# Part d
+ si-3, * Parameter SI-3(c)(1)-1:* Parameter SI-3(c)(1)-2:* Parameter SI-3(c)(2): @ # SI-3 What is the solution and how is it implemented?# Part a# Part b# Part c# Part d
+ si-4, * Parameter SI-4(a)(1):* Parameter SI-4(b):* Parameter SI-4(g)-1:* Parameter SI-4(g)-2:* Parameter SI-4(g)-3: @ # SI-4 What is the solution and how is it implemented?# Part a# Part b# Part c# Part d# Part e# Part f# Part g
+ si-5, * Parameter SI-5(a): * Parameter SI-5(c): @ # SI-5 What is the solution and how is it implemented?# Part a# Part b# Part c# Part d
+ si-12,  @ # SI-12 What is the solution and how is it implemented?#
+ si-16, * Parameter SI-16-1: @ # SI-16 What is the solution and how is it implemented?#
