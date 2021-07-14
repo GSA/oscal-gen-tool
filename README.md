@@ -20,7 +20,7 @@ SQL Server Management Studio (SMSS) (latest version)
 •	Configure security for both SQL Server and Windows Authentication Mode.
 •	Install as default or named instance to your computer.
 5. Download and install SMSS (https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver15).
-6. Locate the /DB folder in the downloaded project and restore the OWT.BAK (SQL backup) with SMSS.
+6. Locate the /DB folder in the downloaded project, unzip the compressed archive OWT.zip, and restore the OWT.BAK (SQL backup) with SMSS.
 7. Modify the web.config file in the project and enter your SQL server instance name on the DBCONN string and appropriate credentials.   The default web.config will have (local) in the server name from the project download.  It will also have a default user id of OWT and password “p@ssw0rd” and will be configured for SQL Server authentication.   Feel free to change this to Windows Integrated Authentication if so desired.
 8.  Run the project in Visual Studio.
 
